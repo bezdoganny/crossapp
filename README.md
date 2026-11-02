@@ -9,4 +9,6 @@
     dotnet run --project src/Cli
 
 ## Середовище
-.NET SDK 10.0, Fedora Workstation 42
+.NET SDK 10.0, Fedora Workstation
+
+jjj
