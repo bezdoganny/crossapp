@@ -1,7 +1,8 @@
 ﻿using System.Runtime.InteropServices;
 
+Console.OutputEncoding = System.Text.Encoding.UTF8;
 Console.WriteLine("CrossApp – практикум з крос-платформного програмування");
-Console.WriteLine("Студент: Віталій, група ФЕІ-37");
+Console.WriteLine("Студент: Давид Віталій, група ФЕІ-37с");
 Console.WriteLine(new string('-', 52));
 Console.WriteLine($"ОС (OSDescription) : {RuntimeInformation.OSDescription}");
 Console.WriteLine($"ОС (Environment) : {Environment.OSVersion}");
@@ -11,4 +12,4 @@ Console.WriteLine($"Runtime : {RuntimeInformation.FrameworkDescription}");
 Console.WriteLine($"Каталог застосунку : {AppContext.BaseDirectory}");
 Console.WriteLine($"Поточний каталог : {Environment.CurrentDirectory}");
 Console.WriteLine(new string('-', 52));
-Console.WriteLine("Предметна область: Бібліотека (книги, примірники, читачі, видачі)");
+Console.WriteLine("Предметна область: Склад (товари, партії, залишки, переміщення)");
