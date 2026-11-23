@@ -62,8 +62,8 @@ RID визначається вашою ОС і архітектурою (`linux
 
 | RID       | Режим               | Розмір publish | Потрібен runtime |
 |-----------|---------------------|----------------|------------------|
-| linux-x64 | self-contained      | ___ МБ         | ні               |
-| linux-x64 | framework-dependent | ___ МБ         | так (.NET 10)    |
+| linux-x64 | self-contained      | 80  МБ         | ні               |
+| linux-x64 | framework-dependent | 128 KБ         | так (.NET 10)    |
 
 Розміри виміряно командою `du -sh publish/*`.
 
